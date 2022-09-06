@@ -1,0 +1,68 @@
+body {
+    background-color: rgba(24, 24, 24, 0.993);
+  }
+  h1 {
+    color: rgb(0, 119, 255);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button {
+    background-color: #363636; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #949494; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  button:active {
+    background-color: #303030;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(163, 163, 163);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #353535;
+  color: white;
+}
